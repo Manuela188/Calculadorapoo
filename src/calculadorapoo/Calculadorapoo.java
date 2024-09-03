@@ -19,7 +19,7 @@ public class Calculadorapoo {
         Scanner entrada = new Scanner(System.in);
         String opcion = "";
 
-        Operaciones operaciones = new Operaciones(); // Instancia de la clase Operaciones
+        Operaciones operaciones = new Operaciones(); 
 
         while (!opcion.equals("5")) {
             System.out.println("1. Sumar \n2. Restar \n3. Multiplicar \n4. Dividir \n5. Salir");
@@ -56,8 +56,7 @@ public class Calculadorapoo {
             }
 
             System.out.println("Resultado: " + resultado);
-            System.out.println("Acumulado: " + operaciones.getAcumulado()); // Mostrar el valor acumulado
-            entrada.nextLine(); // Limpiar el buffer
+            entrada.nextLine(); 
         }
     }
 }
